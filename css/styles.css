@@ -1,0 +1,105 @@
+body {
+  color: #fff;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.grid-cell {
+  flex: 1;
+}
+
+.hero-header, .intro-content, {
+  background-color: #EEEEEE;
+  border: 1px solid #333333;
+}
+
+.hero-header {
+  width: 100%;
+}
+
+nav, footer {
+  height: 100px;
+  background-color: #d1d3d4;
+  border: 1px solid #333333;
+}
+
+.hero-header {
+  height: 600px;
+  background-color: #f1f2f2;
+  border: 1px solid #333333;
+}
+
+.logo, .hamburger {
+  background-color: #808285;
+  height: 100px;
+  flex: 0 0 10%;
+}
+.nav-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.content-grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  margin: 20px 0 20px 0;  
+  padding: 0;
+  justify-content: center;
+
+}
+
+.content {
+  background-color: #808285;
+  flex: 0 0 60%;
+
+}
+
+
+
+.project-list {
+  background-color: red
+}
+
+.project-grid {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.project {
+  border: 1px solid #333;
+  background-color: #eee;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  background-color: #808285;
+  height: 100px;
+  flex: 0 0 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
